@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { toast } from 'react-toastify'
-import Form from '../form/Form'
-import Field from '../form/Field'
+import Form from './form/Form'
+import Field from './form/Field'
 const Formulario = ({ cita, setCita, citas, setCitas }) => {
     const [id, setId] = useState(null)
     const [name, setName] = useState('')
