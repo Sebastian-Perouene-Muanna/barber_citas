@@ -1,5 +1,5 @@
-import Formulario from '../components/Formulario'
-import Cita from "../components/Cita"
+import Formulario from './components/Formulario'
+import Cita from "./components/Cita"
 import { useState, useEffect } from 'react'
 import { ToastContainer } from "react-toastify"
 import { MagicMotion } from "react-magic-motion"
